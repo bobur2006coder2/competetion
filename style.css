@@ -1,0 +1,203 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+a,
+li,
+ul {
+  text-decoration: none;
+  list-style: none;
+}
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+.relative{
+  position: relative;
+}
+.grab {
+  display: flex;
+  justify-content: space-between;
+}
+/* ----------------Navbar------------------ */
+.navbar_top {
+  background-color: #b36050;
+  padding: 10px;
+}
+
+.head_text {
+  color: #f1d3b9;
+  font-family: Roboto;
+  font-size: 17px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.navbar_bottom {
+  width: 1140px;
+  margin: 0 auto;
+  /* background-color: ; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.nav_list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 32px;
+}
+.nav_list > li {
+  color: #b4604d;
+}
+.shopping_section {
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+/* ---------------Header------------------------ */
+.header-bg {
+  background-image: url("./img/header-bg.png");
+  background-size: 100%;
+  height: 435px;
+  background-repeat: no-repeat;
+
+}
+
+.shop_btn {
+  background: #b45f4d;
+  color: #f6f4ec;
+  padding: 10px 20px;
+}
+
+.header_bottom {
+  background-color: #a9ae8d;
+  text-align: center;
+  color: #f6f4ec;
+  line-height: 70px;
+}
+
+/* ---------------Main----------------------------- */
+
+.card_img {
+  width: 340px;
+}
+.main_top_text {
+  text-align: center;
+  font-family: Roboto;
+  font-size: 23px;
+  font-weight: 400;
+  line-height: 39px;
+  letter-spacing: 0em;
+  color: #b45f4d;
+  padding: 45px;
+}
+.card_text {
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #b36050;
+  line-height: 40px;
+}
+
+.card_price {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.shop_sets {
+  width: 1000px;
+  margin: 0px auto;
+}
+
+.shop_sets_img {
+  margin: 40px 0px;
+  width: 100%;
+}
+/* -------------------Section--------------------------------*/
+.card_meet {
+  color: #b45f4d;
+  background: #fff;
+  text-align: left;
+  padding: 200px 42px 0px;
+}
+
+.section-flex {
+  display: flex;
+  justify-content: space-between;
+  gap: 240px;
+}
+
+.card-meet__title {
+  font-family: Roboto;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 58px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.card-meet__describe {
+  font-family: Roboto;
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.read-more {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  color: #b45f4d;
+  padding: 30px 0px;
+}
+
+/* ------------------------Footer------------ */
+
+.followUs-title{
+  font-family: Roboto;
+font-size: 23px;
+font-weight: 400;
+line-height: 39px;
+letter-spacing: 0em;
+text-align: center;
+padding: 50px;
+}
+
+.footer-list{
+  display: flex;
+  align-items: center;
+  gap: 250px;
+}
+
+.footer-bottom-text{
+  text-align: center;
+}
+
+.footer-hr{ 
+  margin: 50px 0px 20px;
+  border: 2px solid #F1D3B9;
+}
+
+.footer-form{
+  line-height: 40px;
+}
